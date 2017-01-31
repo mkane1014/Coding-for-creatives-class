@@ -1,0 +1,36 @@
+					
+h1 { color: white; font-family: Futura, sans-serif;
+margin: 6px; 
+} 
+h2 {color: white; font-family: Futura, sans-serif;
+	margin: 6px;
+}
+
+h3, h4 {color: white;
+font-family: Futura, sans-serif; 
+margin: 6px;
+}
+
+
+
+body { background-color:black;} 
+#hello {color: white;
+font-family: Futura, sans-serif;
+margin: 10px;}
+
+ol {color: white; font-family: Futura, sans-serif;
+}
+
+ul {color:white;font-family: Futura, sans-serif; margin:10px;}
+ul {color:white;font-family: Futura, sans-serif; margin:10px;}
+
+a:visited{color:white;} 
+a: hover{color:red;}
+
+a:visited{color:white;} 
+a: hover{color:red;}
+
+
+
+
+			
