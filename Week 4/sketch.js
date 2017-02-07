@@ -1,15 +1,15 @@
-function myFunction(x) {
-    x.classList.toggle("change");
-}
+// function myFunction(x) {
+//     x.classList.toggle("change");
+// }
 
 function setup() {
-	createCanvas(640, 360)
+	createCanvas(640, 360);
 }
 
 function draw() {
 	background(50, 50, 50);
-	ellipseMode(Center);
-	rectMode(Center);
+	ellipseMode(CENTER);
+	rectMode(CENTER);
 	// Body
 	fill(0 , 0, 255)
 	rect(240,115,60,60); 
