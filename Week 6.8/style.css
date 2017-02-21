@@ -16,10 +16,10 @@ ul.topnav {
     font-family: Univers, sans-serif;
 }
 
-/* Float the list items side by side */
+/*  list items side by side */
 ul.topnav li {float: left;}
 
-/* Style the links inside the list items */
+/* Style the links */
 ul.topnav li a {
     display: inline-block;
     color: #f2f2f2;
@@ -34,7 +34,7 @@ ul.topnav li a {
 /* Change background color of links on hover */
 ul.topnav li a:hover {background-color: #555;}
 
-/* Hide the list item that contains the link that should open and close the topnav on small screens */
+/* Hide the list item that contains the link */
 ul.topnav li.icon {display: none;}
 
 
