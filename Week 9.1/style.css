@@ -2,11 +2,14 @@
 
 
 h1 {  
-    color: white;
-	 font-family: Adamas Regular, serif;
+     background:black;
+     color: white;
+	 font-family: Helvetica, serif;
 	}
 
-body {background-color:black:
+body {
+    background:black;
+    background-color:black:
 }
 
 #name {color: white;

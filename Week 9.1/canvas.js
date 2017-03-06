@@ -3,7 +3,10 @@ var particles =[];
 
 function setup() {
 	createCanvas(800,800)
-	particle = new particle(300, 300);
+	for (var i = 0; i < 200; i++) {
+		particles[i] = new Particle(300, 300);
+	}
+	
 }
 
 function mousePressed() {
@@ -14,9 +17,9 @@ function mousePressed() {
 
 
 function draw() {
-	background (150);
+	background (0);
 	for (var i = 0; i < particles.length; i++) {
-	particle[i].update();
-	particle[i].show();
+		particles[i].update();
+		particles[i].show();
 	}
 }
