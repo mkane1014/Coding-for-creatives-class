@@ -8,8 +8,8 @@ var col = {
 }
 
 
-var x = random (0, 500)
-var y = random (0, 500)
+var x = random (0, 50);
+var y = random (0, 50);
 
 
 function setup() {
@@ -29,11 +29,3 @@ function draw() {
 
 
 
-function myFunction() {
-    var x = document.getElementById("myTopnav");
-    if (x.className === "topnav") {
-        x.className += " responsive";
-    } else {
-        x.className = "topnav";
-    }
-}
